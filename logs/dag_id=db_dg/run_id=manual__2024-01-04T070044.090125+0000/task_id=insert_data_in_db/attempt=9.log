@@ -1,0 +1,44 @@
+[2024-01-04T10:39:44.271+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: db_dg.insert_data_in_db manual__2024-01-04T07:00:44.090125+00:00 [queued]>
+[2024-01-04T10:39:44.296+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: db_dg.insert_data_in_db manual__2024-01-04T07:00:44.090125+00:00 [queued]>
+[2024-01-04T10:39:44.298+0000] {taskinstance.py:2171} INFO - Starting attempt 9 of 10
+[2024-01-04T10:39:44.431+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): insert_data_in_db> on 2024-01-04 07:00:44.090125+00:00
+[2024-01-04T10:39:44.446+0000] {standard_task_runner.py:60} INFO - Started process 1964 to run task
+[2024-01-04T10:39:44.455+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'db_dg', 'insert_data_in_db', 'manual__2024-01-04T07:00:44.090125+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/create_database_dag.py', '--cfg-path', '/tmp/tmpv8cpa2dt']
+[2024-01-04T10:39:44.459+0000] {standard_task_runner.py:88} INFO - Job 79: Subtask insert_data_in_db
+[2024-01-04T10:39:44.619+0000] {task_command.py:423} INFO - Running <TaskInstance: db_dg.insert_data_in_db manual__2024-01-04T07:00:44.090125+00:00 [running]> on host 34fb0f920c20
+[2024-01-04T10:39:44.802+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='prady1900' AIRFLOW_CTX_DAG_ID='db_dg' AIRFLOW_CTX_TASK_ID='insert_data_in_db' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T07:00:44.090125+00:00' AIRFLOW_CTX_TRY_NUMBER='9' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T07:00:44.090125+00:00'
+[2024-01-04T10:39:44.815+0000] {logging_mixin.py:188} INFO - accessing variable
+[2024-01-04T10:39:44.816+0000] {logging_mixin.py:188} INFO - None
+[2024-01-04T10:39:44.817+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/create_database_dag.py", line 50, in insert_data_postg
+    stmt = insert(table_obj).value(
+  File "<string>", line 2, in insert
+  File "<string>", line 2, in __init__
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/deprecations.py", line 375, in warned
+    return fn(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/dml.py", line 1029, in __init__
+    super(Insert, self).__init__(table, values, prefixes)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/dml.py", line 615, in __init__
+    self.table = coercions.expect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 193, in expect
+    resolved = impl._literal_coercion(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 378, in _literal_coercion
+    self._raise_for_expected(element, argname)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 444, in _raise_for_expected
+    return super(_SelectIsNotFrom, self)._raise_for_expected(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 290, in _raise_for_expected
+    util.raise_(exc.ArgumentError(msg, code=code), replace_context=err)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+sqlalchemy.exc.ArgumentError: subject table for an INSERT, UPDATE or DELETE expected, got None.
+[2024-01-04T10:39:44.836+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=db_dg, task_id=insert_data_in_db, execution_date=20240104T070044, start_date=20240104T103944, end_date=20240104T103944
+[2024-01-04T10:39:44.962+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 79 for task insert_data_in_db (subject table for an INSERT, UPDATE or DELETE expected, got None.; 1964)
+[2024-01-04T10:39:44.990+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-04T10:39:45.010+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,13 @@
+[2024-01-02T18:38:28.311+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snow_dag.insert_data_in_db manual__2024-01-02T18:38:14.858350+00:00 [queued]>
+[2024-01-02T18:38:28.321+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snow_dag.insert_data_in_db manual__2024-01-02T18:38:14.858350+00:00 [queued]>
+[2024-01-02T18:38:28.322+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2024-01-02T18:38:28.432+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): insert_data_in_db> on 2024-01-02 18:38:14.858350+00:00
+[2024-01-02T18:38:28.437+0000] {standard_task_runner.py:60} INFO - Started process 126 to run task
+[2024-01-02T18:38:28.439+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'snow_dag', 'insert_data_in_db', 'manual__2024-01-02T18:38:14.858350+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/servicenow_dag.py', '--cfg-path', '/tmp/tmpizziwvhw']
+[2024-01-02T18:38:28.441+0000] {standard_task_runner.py:88} INFO - Job 48: Subtask insert_data_in_db
+[2024-01-02T18:38:28.575+0000] {task_command.py:423} INFO - Running <TaskInstance: snow_dag.insert_data_in_db manual__2024-01-02T18:38:14.858350+00:00 [running]> on host ba618e136646
+[2024-01-02T18:38:28.812+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='prady1900' AIRFLOW_CTX_DAG_ID='snow_dag' AIRFLOW_CTX_TASK_ID='insert_data_in_db' AIRFLOW_CTX_EXECUTION_DATE='2024-01-02T18:38:14.858350+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-02T18:38:14.858350+00:00'
+[2024-01-02T18:38:28.859+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-02T18:38:28.880+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=snow_dag, task_id=insert_data_in_db, execution_date=20240102T183814, start_date=20240102T183828, end_date=20240102T183828
+[2024-01-02T18:38:29.015+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-02T18:38:29.034+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

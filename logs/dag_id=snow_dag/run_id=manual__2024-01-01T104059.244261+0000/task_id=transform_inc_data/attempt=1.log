@@ -1,0 +1,24 @@
+[2024-01-01T10:41:17.656+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snow_dag.transform_inc_data manual__2024-01-01T10:40:59.244261+00:00 [queued]>
+[2024-01-01T10:41:17.665+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snow_dag.transform_inc_data manual__2024-01-01T10:40:59.244261+00:00 [queued]>
+[2024-01-01T10:41:17.666+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2024-01-01T10:41:17.764+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): transform_inc_data> on 2024-01-01 10:40:59.244261+00:00
+[2024-01-01T10:41:17.768+0000] {standard_task_runner.py:60} INFO - Started process 450 to run task
+[2024-01-01T10:41:17.771+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'snow_dag', 'transform_inc_data', 'manual__2024-01-01T10:40:59.244261+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/servicenow_dag.py', '--cfg-path', '/tmp/tmpr9bl7zu8']
+[2024-01-01T10:41:17.773+0000] {standard_task_runner.py:88} INFO - Job 10: Subtask transform_inc_data
+[2024-01-01T10:41:17.895+0000] {task_command.py:423} INFO - Running <TaskInstance: snow_dag.transform_inc_data manual__2024-01-01T10:40:59.244261+00:00 [running]> on host cdceb6054911
+[2024-01-01T10:41:18.210+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='prady1900' AIRFLOW_CTX_DAG_ID='snow_dag' AIRFLOW_CTX_TASK_ID='transform_inc_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T10:40:59.244261+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-01T10:40:59.244261+00:00'
+[2024-01-01T10:41:18.239+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/servicenow_dag.py", line 10, in transform_data
+    print(data['results'])
+KeyError: 'results'
+[2024-01-01T10:41:18.250+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=snow_dag, task_id=transform_inc_data, execution_date=20240101T104059, start_date=20240101T104117, end_date=20240101T104118
+[2024-01-01T10:41:18.347+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 10 for task transform_inc_data ('results'; 450)
+[2024-01-01T10:41:18.385+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-01T10:41:18.403+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

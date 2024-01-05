@@ -1,0 +1,21 @@
+[2024-01-04T11:06:39.020+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: db_dg.insert_data_in_db manual__2024-01-04T07:00:44.090125+00:00 [queued]>
+[2024-01-04T11:06:39.035+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: db_dg.insert_data_in_db manual__2024-01-04T07:00:44.090125+00:00 [queued]>
+[2024-01-04T11:06:39.035+0000] {taskinstance.py:2171} INFO - Starting attempt 14 of 16
+[2024-01-04T11:06:39.173+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): insert_data_in_db> on 2024-01-04 07:00:44.090125+00:00
+[2024-01-04T11:06:39.178+0000] {standard_task_runner.py:60} INFO - Started process 2253 to run task
+[2024-01-04T11:06:39.181+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'db_dg', 'insert_data_in_db', 'manual__2024-01-04T07:00:44.090125+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/create_database_dag.py', '--cfg-path', '/tmp/tmpbjjnk9a6']
+[2024-01-04T11:06:39.184+0000] {standard_task_runner.py:88} INFO - Job 84: Subtask insert_data_in_db
+[2024-01-04T11:06:39.341+0000] {task_command.py:423} INFO - Running <TaskInstance: db_dg.insert_data_in_db manual__2024-01-04T07:00:44.090125+00:00 [running]> on host 34fb0f920c20
+[2024-01-04T11:06:39.562+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='prady1900' AIRFLOW_CTX_DAG_ID='db_dg' AIRFLOW_CTX_TASK_ID='insert_data_in_db' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T07:00:44.090125+00:00' AIRFLOW_CTX_TRY_NUMBER='14' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T07:00:44.090125+00:00'
+[2024-01-04T11:06:39.563+0000] {sql.py:276} INFO - Executing: 
+    insert into incident_new (impact,number,severity,priority,assignment_group,resolve_time,category) VALUES 
+    (1,'INC00001',3,2,'database',4332,'rdbms');
+[2024-01-04T11:06:39.587+0000] {base.py:83} INFO - Using connection ID 'postgres_connect' for task execution.
+[2024-01-04T11:06:39.761+0000] {base.py:83} INFO - Using connection ID 'postgres_connect' for task execution.
+[2024-01-04T11:06:39.812+0000] {sql.py:432} INFO - Running statement: 
+    insert into incident_new (impact,number,severity,priority,assignment_group,resolve_time,category) VALUES 
+    (1,'INC00001',3,2,'database',4332,'rdbms');, parameters: None
+[2024-01-04T11:06:39.826+0000] {sql.py:441} INFO - Rows affected: 1
+[2024-01-04T11:06:39.841+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=db_dg, task_id=insert_data_in_db, execution_date=20240104T070044, start_date=20240104T110639, end_date=20240104T110639
+[2024-01-04T11:06:39.997+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-04T11:06:40.016+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

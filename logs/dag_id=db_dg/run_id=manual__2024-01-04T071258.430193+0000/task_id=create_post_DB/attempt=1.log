@@ -1,0 +1,28 @@
+[2024-01-04T07:13:04.662+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: db_dg.create_post_DB manual__2024-01-04T07:12:58.430193+00:00 [queued]>
+[2024-01-04T07:13:04.678+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: db_dg.create_post_DB manual__2024-01-04T07:12:58.430193+00:00 [queued]>
+[2024-01-04T07:13:04.678+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2024-01-04T07:13:04.796+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): create_post_DB> on 2024-01-04 07:12:58.430193+00:00
+[2024-01-04T07:13:04.800+0000] {standard_task_runner.py:60} INFO - Started process 567 to run task
+[2024-01-04T07:13:04.803+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'db_dg', 'create_post_DB', 'manual__2024-01-04T07:12:58.430193+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/create_database_dag.py', '--cfg-path', '/tmp/tmprn9u30jz']
+[2024-01-04T07:13:04.805+0000] {standard_task_runner.py:88} INFO - Job 68: Subtask create_post_DB
+[2024-01-04T07:13:04.952+0000] {task_command.py:423} INFO - Running <TaskInstance: db_dg.create_post_DB manual__2024-01-04T07:12:58.430193+00:00 [running]> on host 34fb0f920c20
+[2024-01-04T07:13:05.167+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='prady1900' AIRFLOW_CTX_DAG_ID='db_dg' AIRFLOW_CTX_TASK_ID='create_post_DB' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T07:12:58.430193+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T07:12:58.430193+00:00'
+[2024-01-04T07:13:05.168+0000] {sql.py:276} INFO - Executing: 
+create table if not exists incident_new(
+    id integer ,
+    impact integer,
+    number varchar(50),
+    primary key(id)
+)
+[2024-01-04T07:13:05.180+0000] {base.py:83} INFO - Using connection ID 'postgres_connect' for task execution.
+[2024-01-04T07:13:05.247+0000] {base.py:83} INFO - Using connection ID 'postgres_connect' for task execution.
+[2024-01-04T07:13:05.255+0000] {sql.py:432} INFO - Running statement: 
+create table if not exists incident_new(
+    id integer ,
+    impact integer,
+    number varchar(50),
+    primary key(id)
+), parameters: None
+[2024-01-04T07:13:05.266+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=db_dg, task_id=create_post_DB, execution_date=20240104T071258, start_date=20240104T071304, end_date=20240104T071305
+[2024-01-04T07:13:05.418+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-04T07:13:05.448+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,27 @@
+[2024-01-01T12:45:34.612+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snow_dag.transform_inc_data manual__2024-01-01T12:45:10.577350+00:00 [queued]>
+[2024-01-01T12:45:34.624+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snow_dag.transform_inc_data manual__2024-01-01T12:45:10.577350+00:00 [queued]>
+[2024-01-01T12:45:34.625+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2024-01-01T12:45:34.728+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): transform_inc_data> on 2024-01-01 12:45:10.577350+00:00
+[2024-01-01T12:45:34.732+0000] {standard_task_runner.py:60} INFO - Started process 880 to run task
+[2024-01-01T12:45:34.735+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'snow_dag', 'transform_inc_data', 'manual__2024-01-01T12:45:10.577350+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/servicenow_dag.py', '--cfg-path', '/tmp/tmp8r1umw6k']
+[2024-01-01T12:45:34.737+0000] {standard_task_runner.py:88} INFO - Job 17: Subtask transform_inc_data
+[2024-01-01T12:45:34.867+0000] {task_command.py:423} INFO - Running <TaskInstance: snow_dag.transform_inc_data manual__2024-01-01T12:45:10.577350+00:00 [running]> on host cdceb6054911
+[2024-01-01T12:45:35.070+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='prady1900' AIRFLOW_CTX_DAG_ID='snow_dag' AIRFLOW_CTX_TASK_ID='transform_inc_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T12:45:10.577350+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-01T12:45:10.577350+00:00'
+[2024-01-01T12:45:35.201+0000] {logging_mixin.py:188} INFO -    parent  ...             parent_incident.value
+0          ...                               NaN
+1          ...                               NaN
+2          ...                               NaN
+3          ...                               NaN
+4          ...                               NaN
+..    ...  ...                               ...
+62         ...                               NaN
+63         ...                               NaN
+64         ...                               NaN
+65         ...                               NaN
+66         ...  f12ca184735123002728660c4cf6a7ef
+
+[67 rows x 115 columns]
+[2024-01-01T12:45:35.202+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-01T12:45:35.212+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=snow_dag, task_id=transform_inc_data, execution_date=20240101T124510, start_date=20240101T124534, end_date=20240101T124535
+[2024-01-01T12:45:35.350+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-01T12:45:35.369+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

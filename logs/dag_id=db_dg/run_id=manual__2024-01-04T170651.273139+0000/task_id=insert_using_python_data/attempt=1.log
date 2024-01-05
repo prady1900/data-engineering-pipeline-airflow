@@ -1,0 +1,84 @@
+[2024-01-04T17:07:15.034+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: db_dg.insert_using_python_data manual__2024-01-04T17:06:51.273139+00:00 [queued]>
+[2024-01-04T17:07:15.047+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: db_dg.insert_using_python_data manual__2024-01-04T17:06:51.273139+00:00 [queued]>
+[2024-01-04T17:07:15.047+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2024-01-04T17:07:15.151+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): insert_using_python_data> on 2024-01-04 17:06:51.273139+00:00
+[2024-01-04T17:07:15.155+0000] {standard_task_runner.py:60} INFO - Started process 527 to run task
+[2024-01-04T17:07:15.158+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'db_dg', 'insert_using_python_data', 'manual__2024-01-04T17:06:51.273139+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/create_database_dag.py', '--cfg-path', '/tmp/tmpfmah8qbw']
+[2024-01-04T17:07:15.162+0000] {standard_task_runner.py:88} INFO - Job 46: Subtask insert_using_python_data
+[2024-01-04T17:07:15.291+0000] {task_command.py:423} INFO - Running <TaskInstance: db_dg.insert_using_python_data manual__2024-01-04T17:06:51.273139+00:00 [running]> on host e2a9126be768
+[2024-01-04T17:07:15.517+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='prady1900' AIRFLOW_CTX_DAG_ID='db_dg' AIRFLOW_CTX_TASK_ID='insert_using_python_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T17:06:51.273139+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T17:06:51.273139+00:00'
+[2024-01-04T17:07:15.533+0000] {base.py:83} INFO - Using connection ID 'postgres_connect' for task execution.
+[2024-01-04T17:07:15.665+0000] {base.py:83} INFO - Using connection ID 'postgres_connect' for task execution.
+[2024-01-04T17:07:15.687+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 982, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+psycopg2.errors.UndefinedColumn: column "index" of relation "incident_new" does not exist
+LINE 1: INSERT INTO incident_new (index, number, impact, severity, p...
+                                  ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/create_database_dag.py", line 52, in insert_data_postg
+    df_inc.to_sql('incident_new',pg_hook.get_sqlalchemy_engine(),if_exists='append', chunksize=500)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 2878, in to_sql
+    return sql.to_sql(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 769, in to_sql
+    return pandas_sql.to_sql(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 1920, in to_sql
+    total_inserted = sql_engine.insert_records(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 1470, in insert_records
+    raise err
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 1461, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 1023, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/sql.py", line 929, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 982, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column "index" of relation "incident_new" does not exist
+LINE 1: INSERT INTO incident_new (index, number, impact, severity, p...
+                                  ^
+
+[SQL: INSERT INTO incident_new (index, number, impact, severity, priority, category, resolve_time, assignment_group) VALUES (%(index)s, %(number)s, %(impact)s, %(severity)s, %(priority)s, %(category)s, %(resolve_time)s, %(assignment_group)s)]
+[parameters: ({'index': 0, 'number': 'INC0000060', 'impact': 2, 'severity': 3, 'priority': 3, 'category': 'inquiry', 'resolve_time': 102197.0, 'assignment_group': '287ebd7da9fe198100f92cc8d1d2154e'}, {'index': 1, 'number': 'INC0009002', 'impact': 2, 'severity': 3, 'priority': 3, 'category': 'Hardware', 'resolve_time': 114.0, 'assignment_group': None}, {'index': 2, 'number': 'INC0000009', 'impact': 1, 'severity': 3, 'priority': 1, 'category': 'inquiry', 'resolve_time': 7333549.0, 'assignment_group': 'd625dccec0a8016700a222a0f7900d06'}, {'index': 3, 'number': 'INC0000010', 'impact': 2, 'severity': 3, 'priority': 4, 'category': 'database', 'resolve_time': 7851790.0, 'assignment_group': '287ee6fea9fe198100ada7950d0b1b73'}, {'index': 4, 'number': 'INC0000011', 'impact': 2, 'severity': 3, 'priority': 3, 'category': 'inquiry', 'resolve_time': 7246500.0, 'assignment_group': '8a5055c9c61122780043563ef53438e3'}, {'index': 5, 'number': 'INC0000012', 'impact': 3, 'severity': 3, 'priority': 5, 'category': 'software', 'resolve_time': 9233352.0, 'assignment_group': '287ee6fea9fe198100ada7950d0b1b73'}, {'index': 6, 'number': 'INC0000013', 'impact': 1, 'severity': 3, 'priority': 1, 'category': 'inquiry', 'resolve_time': 6899930.0, 'assignment_group': '8a4dde73c6112278017a6a4baf547aa7'}, {'index': 7, 'number': 'INC0000014', 'impact': 1, 'severity': 3, 'priority': 1, 'category': 'inquiry', 'resolve_time': 9502588.0, 'assignment_group': None}  ... displaying 10 of 67 total bound parameter sets ...  {'index': 65, 'number': 'INC0007001', 'impact': 1, 'severity': 3, 'priority': 1, 'category': 'hardware', 'resolve_time': None, 'assignment_group': '36c741fa731313005754660c4cf6a70d'}, {'index': 66, 'number': 'INC0007002', 'impact': 3, 'severity': 3, 'priority': 4, 'category': 'inquiry', 'resolve_time': None, 'assignment_group': None})]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2024-01-04T17:07:15.706+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=db_dg, task_id=insert_using_python_data, execution_date=20240104T170651, start_date=20240104T170715, end_date=20240104T170715
+[2024-01-04T17:07:15.807+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 46 for task insert_using_python_data ((psycopg2.errors.UndefinedColumn) column "index" of relation "incident_new" does not exist
+LINE 1: INSERT INTO incident_new (index, number, impact, severity, p...
+                                  ^
+
+[SQL: INSERT INTO incident_new (index, number, impact, severity, priority, category, resolve_time, assignment_group) VALUES (%(index)s, %(number)s, %(impact)s, %(severity)s, %(priority)s, %(category)s, %(resolve_time)s, %(assignment_group)s)]
+[parameters: ({'index': 0, 'number': 'INC0000060', 'impact': 2, 'severity': 3, 'priority': 3, 'category': 'inquiry', 'resolve_time': 102197.0, 'assignment_group': '287ebd7da9fe198100f92cc8d1d2154e'}, {'index': 1, 'number': 'INC0009002', 'impact': 2, 'severity': 3, 'priority': 3, 'category': 'Hardware', 'resolve_time': 114.0, 'assignment_group': None}, {'index': 2, 'number': 'INC0000009', 'impact': 1, 'severity': 3, 'priority': 1, 'category': 'inquiry', 'resolve_time': 7333549.0, 'assignment_group': 'd625dccec0a8016700a222a0f7900d06'}, {'index': 3, 'number': 'INC0000010', 'impact': 2, 'severity': 3, 'priority': 4, 'category': 'database', 'resolve_time': 7851790.0, 'assignment_group': '287ee6fea9fe198100ada7950d0b1b73'}, {'index': 4, 'number': 'INC0000011', 'impact': 2, 'severity': 3, 'priority': 3, 'category': 'inquiry', 'resolve_time': 7246500.0, 'assignment_group': '8a5055c9c61122780043563ef53438e3'}, {'index': 5, 'number': 'INC0000012', 'impact': 3, 'severity': 3, 'priority': 5, 'category': 'software', 'resolve_time': 9233352.0, 'assignment_group': '287ee6fea9fe198100ada7950d0b1b73'}, {'index': 6, 'number': 'INC0000013', 'impact': 1, 'severity': 3, 'priority': 1, 'category': 'inquiry', 'resolve_time': 6899930.0, 'assignment_group': '8a4dde73c6112278017a6a4baf547aa7'}, {'index': 7, 'number': 'INC0000014', 'impact': 1, 'severity': 3, 'priority': 1, 'category': 'inquiry', 'resolve_time': 9502588.0, 'assignment_group': None}  ... displaying 10 of 67 total bound parameter sets ...  {'index': 65, 'number': 'INC0007001', 'impact': 1, 'severity': 3, 'priority': 1, 'category': 'hardware', 'resolve_time': None, 'assignment_group': '36c741fa731313005754660c4cf6a70d'}, {'index': 66, 'number': 'INC0007002', 'impact': 3, 'severity': 3, 'priority': 4, 'category': 'inquiry', 'resolve_time': None, 'assignment_group': None})]
+(Background on this error at: https://sqlalche.me/e/14/f405); 527)
+[2024-01-04T17:07:15.813+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-04T17:07:15.832+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

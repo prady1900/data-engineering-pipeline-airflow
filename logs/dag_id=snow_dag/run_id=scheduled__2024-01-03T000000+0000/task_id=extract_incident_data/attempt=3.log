@@ -1,0 +1,179 @@
+[2024-01-04T06:19:47.723+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snow_dag.extract_incident_data scheduled__2024-01-03T00:00:00+00:00 [queued]>
+[2024-01-04T06:19:47.737+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snow_dag.extract_incident_data scheduled__2024-01-03T00:00:00+00:00 [queued]>
+[2024-01-04T06:19:47.738+0000] {taskinstance.py:2171} INFO - Starting attempt 3 of 3
+[2024-01-04T06:19:47.846+0000] {taskinstance.py:2192} INFO - Executing <Task(SimpleHttpOperator): extract_incident_data> on 2024-01-03 00:00:00+00:00
+[2024-01-04T06:19:47.850+0000] {standard_task_runner.py:60} INFO - Started process 176 to run task
+[2024-01-04T06:19:47.852+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'snow_dag', 'extract_incident_data', 'scheduled__2024-01-03T00:00:00+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/servicenow_dag.py', '--cfg-path', '/tmp/tmph6_vfs_4']
+[2024-01-04T06:19:47.855+0000] {standard_task_runner.py:88} INFO - Job 57: Subtask extract_incident_data
+[2024-01-04T06:19:48.012+0000] {task_command.py:423} INFO - Running <TaskInstance: snow_dag.extract_incident_data scheduled__2024-01-03T00:00:00+00:00 [running]> on host 48e8e5b29b13
+[2024-01-04T06:19:48.170+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='prady1900' AIRFLOW_CTX_DAG_ID='snow_dag' AIRFLOW_CTX_TASK_ID='extract_incident_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-03T00:00:00+00:00'
+[2024-01-04T06:19:48.171+0000] {http.py:169} INFO - Calling HTTP method
+[2024-01-04T06:19:48.180+0000] {base.py:83} INFO - Using connection ID 'snow_api_id' for task execution.
+[2024-01-04T06:19:48.244+0000] {base.py:83} INFO - Using connection ID 'snow_api_id' for task execution.
+[2024-01-04T06:19:51.172+0000] {http.py:208} INFO - <html>
+    <head>
+        <meta HTTP-EQUIV="refresh" content="5;https://developer.servicenow.com/dev.do#!/home?wu=true">
+        <title>
+            Instance Hibernating page
+        </title>
+        <style>
+            @font-face {
+                font-family: "Gilroy-Bold";
+                font-style: normal;
+                 font-weight: normal;
+                src: url("gilroy-bold-webfont.woff2") format("woff2"),
+                     url("gilroy-bold-webfont.woff") format("woff");
+            }
+            @font-face {
+                font-family: "Gilroy-Regular";
+                font-style: normal;
+                font-weight: normal;
+                src: url("gilroy-regular-webfont.woff2") format("woff2"),
+                     url("gilroy-regular-webfont.woff") format("woff");
+            }
+            @font-face {
+                font-family: 'Gilroy-Medium';
+                font-style: normal;
+                font-weight: normal;
+                src: url('gilroy-medium-webfont.woff2') format('woff2'),
+                     url('gilroy-medium-webfont.woff') format('woff');
+            }
+            @font-face {
+                font-family: 'SourceSansPro-Regular';
+                src: url("source-sans-pro-v11-latin-regular.woff2") format("woff2"),
+                     url("source-sans-pro-v11-latin-regular.woff") format("woff");
+            }
+            body {
+                background-color: #293D40;
+            }
+            h1 {
+                margin: 150px 0 90px 0;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Bold;
+                font-size: 38px;
+                font-weight: bold;
+                height: 42px;
+                letter-spacing: 0;
+                line-height: 42px;
+                width: 520px;
+            }
+            a {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+            button {
+                padding: 9px 0 27px 0;
+                background: rgb(255, 255, 255);
+                margin-left: 26%;
+                cursor: pointer;
+            }
+            .instance-hibernating-page {
+                max-width: 600px;
+                margin: auto;
+                padding: 10px;
+            }
+            .resting-image {
+                height: fit-content;
+                position: relative;
+            }
+            .information {
+                margin: 30px 0 0 -80px;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Regular;
+                font-size: 21px;
+                font-weight: normal;
+                height: 64px;
+                letter-spacing: 0;
+                line-height: 32px;
+                text-align: center;
+                width: 665px;
+            }
+            .external-link {
+                text-decoration: underline;
+            }
+            .button-text {
+                color: rgb(71, 77, 82);
+                font-family: Gilroy-Medium;
+                font-size: 15px;
+                height: 17px;
+                letter-spacing: 0;
+                width: 172px;
+            }
+            .button-arrow {
+                padding-left: 2px;
+            }
+            .redirection-text {
+                margin: 64px 0 0 8%;
+                color: rgb(255, 255, 255);
+                font-family: SourceSansPro-Regular;
+                font-size: 13px;
+                font-weight: normal;
+                height: 20px;
+                letter-spacing: 0;
+                line-height: 20px;
+                width: 410px;
+            }
+            .texture-image {
+                margin: 0 60px 0 1133px;
+                position: absolute;
+                width: 240px;
+                top: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="instance-hibernating-page">
+            <h1>Your instance is hibernating</h1>
+            <img class="resting-image" src="https://sndevstore.blob.core.windows.net/images/Hibernating-page_Resting-Image-Asset.svg" alt="texture_image" width="500" height="300">
+            <p class="information">Sign in to the site to wake your instance</p>
+            <button onclick="location.href='https://developer.servicenow.com/dev.do#!/home?wu=true';" class ="button-text">Sign in
+                <span class="button-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 12 12" style="width: 0.75rem; height: 0.75rem;">
+                        <g stroke="none" fill="none"><path fill="currentColor" d="M9.11 6L5.815 2.704l.707-.708L11 6.475l-4.479 4.479-.707-.708L9.061 7H1.003V6z"></path></g>
+                    </svg>
+                </span>
+            </button>
+            <p class="information">
+                Want to find out why instances hibernate? Read more about instances in the
+                <a href="https://developer.servicenow.com/dev.do#!/guides/latest/developer-program/pdi-guide/personal-developer-instance-guide-introduction" target="_blank">
+                    <span class="external-link">
+                        Personal Developer Instance Guide
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16" style="width: 1rem; height: 1rem;">
+                        <g stroke="none" fill="none">
+                            <path fill="currentColor" d="M5 3v1h6.293l-8.651 8.648.707.707L12 4.707v6.294h1V3z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </p>
+            <p class="redirection-text">You'll be automatically redirected to the ServiceNow Developer Site shortly</p>
+            <img class="texture-image" src="https://sndevstore.blob.core.windows.net/images/Hibernating-page_Texture-image-asset.png" alt="circles">
+        </div>
+    </body>
+</html>
+
+[2024-01-04T06:19:51.173+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 166, in execute
+    return self.execute_sync(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 172, in execute_sync
+    return self.process_response(context=context, response=response)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 215, in process_response
+    return self.response_filter(response, **kwargs)
+  File "/opt/airflow/dags/servicenow_dag.py", line 81, in <lambda>
+    response_filter = lambda r: json.loads(r.text)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-01-04T06:19:51.185+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=snow_dag, task_id=extract_incident_data, execution_date=20240103T000000, start_date=20240104T061947, end_date=20240104T061951
+[2024-01-04T06:19:51.302+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 57 for task extract_incident_data (Expecting value: line 1 column 1 (char 0); 176)
+[2024-01-04T06:19:51.322+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-04T06:19:51.355+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
