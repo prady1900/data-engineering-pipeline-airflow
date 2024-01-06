@@ -20971,3 +20971,1781 @@ File Path                                 PID    Runtime      # DAGs    # Errors
 /opt/airflow/dags/ml_model.py                                      1           0  1.94s           2024-01-05T19:22:14
 /opt/airflow/dags/servicenow_dag.py                                1           0  0.71s           2024-01-05T19:21:46
 ================================================================================
+[2024-01-06T10:56:09.048+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T10:56:09.101+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T10:56:09.102+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T10:56:09.102+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T10:56:09.407+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T10:56:14.725+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/ml_model.py                                      1           0  4.70s           2024-01-06T10:56:14
+================================================================================
+[2024-01-06T10:56:48.210+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  3.57s           2024-01-06T10:56:19
+/opt/airflow/dags/ml_model.py                                      1           0  2.30s           2024-01-06T10:56:48
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.27s           2024-01-06T10:56:23
+================================================================================
+[2024-01-06T10:57:21.009+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.70s           2024-01-06T10:56:50
+/opt/airflow/dags/ml_model.py                                      1           0  2.20s           2024-01-06T10:57:21
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.71s           2024-01-06T10:56:54
+================================================================================
+[2024-01-06T10:57:53.513+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T10:57:22
+/opt/airflow/dags/ml_model.py                                      1           0  2.14s           2024-01-06T10:57:53
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.81s           2024-01-06T10:57:25
+================================================================================
+[2024-01-06T10:58:25.609+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T10:57:55
+/opt/airflow/dags/ml_model.py                                      1           0  1.87s           2024-01-06T10:58:25
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T10:57:56
+================================================================================
+[2024-01-06T10:58:57.608+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.80s           2024-01-06T10:58:27
+/opt/airflow/dags/ml_model.py                                      1           0  1.69s           2024-01-06T10:58:57
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T10:58:29
+================================================================================
+[2024-01-06T10:59:30.013+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T10:58:59
+/opt/airflow/dags/ml_model.py                                      1           0  1.99s           2024-01-06T10:59:30
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.71s           2024-01-06T10:59:00
+================================================================================
+[2024-01-06T11:00:02.511+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T10:59:32
+/opt/airflow/dags/ml_model.py                                      1           0  2.23s           2024-01-06T11:00:02
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T10:59:34
+================================================================================
+[2024-01-06T11:00:35.506+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.71s           2024-01-06T11:00:04
+/opt/airflow/dags/ml_model.py                                      1           0  2.78s           2024-01-06T11:00:35
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T11:00:06
+================================================================================
+[2024-01-06T11:01:07.809+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T11:00:37
+/opt/airflow/dags/ml_model.py                                      1           0  2.07s           2024-01-06T11:01:07
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.02s           2024-01-06T11:00:39
+================================================================================
+[2024-01-06T11:01:11.061+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T11:01:11.099+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T11:01:39.911+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T11:01:09
+/opt/airflow/dags/ml_model.py                                      1           0  2.07s           2024-01-06T11:01:39
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.71s           2024-01-06T11:01:11
+================================================================================
+[2024-01-06T11:02:11.894+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T11:01:41
+/opt/airflow/dags/ml_model.py                                      1           0  1.90s           2024-01-06T11:02:11
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T11:01:43
+================================================================================
+[2024-01-06T11:02:44.294+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.71s           2024-01-06T11:02:13
+/opt/airflow/dags/ml_model.py                                      1           0  2.13s           2024-01-06T11:02:44
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.81s           2024-01-06T11:02:15
+================================================================================
+[2024-01-06T11:03:16.388+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T11:02:46
+/opt/airflow/dags/ml_model.py                                      1           0  1.86s           2024-01-06T11:03:16
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T11:02:48
+================================================================================
+[2024-01-06T11:03:48.688+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T11:03:18
+/opt/airflow/dags/ml_model.py                                      1           0  2.05s           2024-01-06T11:03:48
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T11:03:20
+================================================================================
+[2024-01-06T11:05:24.489+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T11:05:24.490+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T11:05:24.490+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T11:05:24.491+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T11:05:24.796+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T11:05:30.601+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/ml_model.py                                      1           0  5.20s           2024-01-06T11:05:30
+================================================================================
+[2024-01-06T11:06:03.991+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  3.16s           2024-01-06T11:05:35
+/opt/airflow/dags/ml_model.py                                      1           0  2.02s           2024-01-06T11:06:03
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.45s           2024-01-06T11:05:39
+================================================================================
+[2024-01-06T11:06:36.891+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T11:06:06
+/opt/airflow/dags/ml_model.py                                      1           0  1.92s           2024-01-06T11:06:36
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.81s           2024-01-06T11:06:10
+================================================================================
+[2024-01-06T11:07:09.393+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.70s           2024-01-06T11:06:37
+/opt/airflow/dags/ml_model.py                                      1           0  2.11s           2024-01-06T11:07:09
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T11:06:41
+================================================================================
+[2024-01-06T11:07:41.685+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T11:07:11
+/opt/airflow/dags/ml_model.py                                      1           0  1.98s           2024-01-06T11:07:41
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T11:07:13
+================================================================================
+[2024-01-06T11:08:14.086+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.51s           2024-01-06T11:07:44
+/opt/airflow/dags/ml_model.py                                      1           0  2.13s           2024-01-06T11:08:14
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T11:07:46
+================================================================================
+[2024-01-06T11:08:46.284+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T11:08:15
+/opt/airflow/dags/ml_model.py                                      1           0  1.96s           2024-01-06T11:08:46
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.80s           2024-01-06T11:08:18
+================================================================================
+[2024-01-06T11:09:18.484+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T11:08:48
+/opt/airflow/dags/ml_model.py                                      1           0  1.92s           2024-01-06T11:09:18
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.71s           2024-01-06T11:08:50
+================================================================================
+[2024-01-06T11:09:51.290+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.80s           2024-01-06T11:09:20
+/opt/airflow/dags/ml_model.py                                      1           0  2.50s           2024-01-06T11:09:51
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T11:09:22
+================================================================================
+[2024-01-06T11:16:00.590+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T11:16:00.674+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T11:16:00.675+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T11:16:00.675+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T11:16:00.875+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T11:16:06.778+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/ml_model.py                                      1           0  5.47s           2024-01-06T11:16:06
+================================================================================
+[2024-01-06T11:16:40.279+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  2.61s           2024-01-06T11:16:10
+/opt/airflow/dags/ml_model.py                                      1           0  2.29s           2024-01-06T11:16:40
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.34s           2024-01-06T11:16:15
+================================================================================
+[2024-01-06T11:17:51.419+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T11:16:42
+/opt/airflow/dags/ml_model.py                                      1           0  40.22s          2024-01-06T11:17:51
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.51s           2024-01-06T11:16:47
+================================================================================
+[2024-01-06T11:18:35.585+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  10.60s          2024-01-06T11:18:06
+/opt/airflow/dags/ml_model.py                                      1           0  13.14s          2024-01-06T11:18:35
+/opt/airflow/dags/servicenow_dag.py                                1           0  9.69s           2024-01-06T11:18:21
+================================================================================
+[2024-01-06T11:19:12.007+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  2.77s           2024-01-06T11:18:40
+/opt/airflow/dags/ml_model.py                                      1           0  5.87s           2024-01-06T11:19:12
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.94s           2024-01-06T11:18:52
+================================================================================
+[2024-01-06T11:19:45.097+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T11:19:14
+/opt/airflow/dags/ml_model.py                                      1           0  2.79s           2024-01-06T11:19:45
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.83s           2024-01-06T11:19:23
+================================================================================
+[2024-01-06T11:20:18.299+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T11:19:47
+/opt/airflow/dags/ml_model.py                                      1           0  2.83s           2024-01-06T11:20:18
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.64s           2024-01-06T11:19:55
+================================================================================
+[2024-01-06T11:20:50.893+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T11:20:20
+/opt/airflow/dags/ml_model.py                                      1           0  2.33s           2024-01-06T11:20:50
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T11:20:26
+================================================================================
+[2024-01-06T11:21:00.802+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T11:21:00.837+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T11:21:23.398+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T11:20:53
+/opt/airflow/dags/ml_model.py                                      1           0  2.22s           2024-01-06T11:21:23
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.92s           2024-01-06T11:20:58
+================================================================================
+[2024-01-06T11:21:55.802+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T11:21:25
+/opt/airflow/dags/ml_model.py                                      1           0  2.25s           2024-01-06T11:21:55
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T11:21:29
+================================================================================
+[2024-01-06T11:22:28.197+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T11:21:57
+/opt/airflow/dags/ml_model.py                                      1           0  2.15s           2024-01-06T11:22:28
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.02s           2024-01-06T11:22:01
+================================================================================
+[2024-01-06T11:23:00.496+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T11:22:30
+/opt/airflow/dags/ml_model.py                                      1           0  2.17s           2024-01-06T11:23:00
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.92s           2024-01-06T11:22:32
+================================================================================
+[2024-01-06T11:23:33.297+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T11:23:02
+/opt/airflow/dags/ml_model.py                                      1           0  2.50s           2024-01-06T11:23:33
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.81s           2024-01-06T11:23:04
+================================================================================
+[2024-01-06T11:52:08.106+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T11:52:08.112+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T11:52:08.112+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T11:52:08.113+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T11:52:08.396+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T11:52:14.105+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/ml_model.py                                      1           0  5.01s           2024-01-06T11:52:14
+================================================================================
+[2024-01-06T11:52:46.653+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  2.90s           2024-01-06T11:52:18
+/opt/airflow/dags/ml_model.py                                      1           0  2.21s           2024-01-06T11:52:46
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.40s           2024-01-06T11:52:23
+================================================================================
+[2024-01-06T11:53:18.642+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.82s           2024-01-06T11:52:49
+/opt/airflow/dags/ml_model.py                                      1           0  1.91s           2024-01-06T11:53:18
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.70s           2024-01-06T11:52:54
+================================================================================
+[2024-01-06T11:54:57.498+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T11:54:57.582+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T11:54:57.583+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T11:54:57.584+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T11:54:58.007+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T11:55:03.085+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/ml_model.py                                      1           0  4.27s           2024-01-06T11:55:03
+================================================================================
+[2024-01-06T11:55:35.789+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.61s           2024-01-06T11:55:06
+/opt/airflow/dags/ml_model.py                                      1           0  2.20s           2024-01-06T11:55:35
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.71s           2024-01-06T11:55:09
+================================================================================
+[2024-01-06T12:04:58.898+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T12:04:58.974+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T12:04:58.975+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T12:04:58.976+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:04:59.260+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:05:06.407+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/ml_model.py                                      1           0  6.71s           2024-01-06T12:05:06
+================================================================================
+[2024-01-06T12:05:39.382+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  3.70s           2024-01-06T12:05:11
+/opt/airflow/dags/ml_model.py                                      1           0  2.76s           2024-01-06T12:05:39
+/opt/airflow/dags/servicenow_dag.py                                1           0  2.93s           2024-01-06T12:05:16
+================================================================================
+[2024-01-06T12:06:18.101+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:05:43
+/opt/airflow/dags/ml_model.py                                      1           0  8.67s           2024-01-06T12:06:18
+/opt/airflow/dags/servicenow_dag.py                                1           0  2.71s           2024-01-06T12:05:49
+================================================================================
+[2024-01-06T12:07:30.697+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  3.23s           2024-01-06T12:06:22
+/opt/airflow/dags/ml_model.py                                      1           0  41.92s          2024-01-06T12:07:30
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.74s           2024-01-06T12:06:27
+================================================================================
+[2024-01-06T12:08:20.577+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  2.52s           2024-01-06T12:07:35
+/opt/airflow/dags/ml_model.py                                      1           0  19.14s          2024-01-06T12:08:20
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.71s           2024-01-06T12:07:37
+================================================================================
+[2024-01-06T12:08:52.869+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.25s           2024-01-06T12:08:23
+/opt/airflow/dags/ml_model.py                                      1           0  2.25s           2024-01-06T12:08:52
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.35s           2024-01-06T12:08:25
+================================================================================
+[2024-01-06T12:09:25.371+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:08:55
+/opt/airflow/dags/ml_model.py                                      1           0  2.24s           2024-01-06T12:09:25
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:08:57
+================================================================================
+[2024-01-06T12:10:34.667+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T12:10:34.668+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T12:10:34.669+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T12:10:34.670+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:10:35.166+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:10:45.875+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/ml_model.py                                      1           0  9.59s           2024-01-06T12:10:45
+================================================================================
+[2024-01-06T12:11:18.570+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  2.47s           2024-01-06T12:10:49
+/opt/airflow/dags/ml_model.py                                      1           0  2.10s           2024-01-06T12:11:18
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.49s           2024-01-06T12:10:54
+================================================================================
+[2024-01-06T12:13:02.073+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T12:13:02.077+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T12:13:02.078+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T12:13:02.079+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:13:02.625+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:13:03.562+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/ml_model.py                                      0           1  0.52s           2024-01-06T12:13:03
+/opt/airflow/dags/servicenow_dag.py                                0           0
+================================================================================
+[2024-01-06T12:13:35.542+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           1  0.51s           2024-01-06T12:13:35
+/opt/airflow/dags/create_database_dag.py                           1           0  3.99s           2024-01-06T12:13:09
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.91s           2024-01-06T12:13:14
+================================================================================
+[2024-01-06T12:16:30.880+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T12:16:30.884+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T12:16:30.885+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T12:16:30.885+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:16:31.481+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:16:33.425+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/ml_model.py                                      0           0  0.93s           2024-01-06T12:16:33
+/opt/airflow/dags/servicenow_dag.py                                0           0
+================================================================================
+[2024-01-06T12:17:04.527+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:17:04
+/opt/airflow/dags/create_database_dag.py                           1           0  6.91s           2024-01-06T12:16:42
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.35s           2024-01-06T12:16:46
+================================================================================
+[2024-01-06T12:17:35.755+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:17:35
+/opt/airflow/dags/create_database_dag.py                           1           0  1.08s           2024-01-06T12:17:13
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.93s           2024-01-06T12:17:18
+================================================================================
+[2024-01-06T12:18:06.981+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:18:06
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T12:17:44
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.02s           2024-01-06T12:17:49
+================================================================================
+[2024-01-06T12:18:37.291+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.10s           2024-01-06T12:18:37
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T12:18:16
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.92s           2024-01-06T12:18:20
+================================================================================
+[2024-01-06T12:19:07.855+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:19:07
+/opt/airflow/dags/create_database_dag.py                           1           0  1.25s           2024-01-06T12:18:47
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:18:51
+================================================================================
+[2024-01-06T12:19:38.725+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.10s           2024-01-06T12:19:38
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T12:19:19
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.71s           2024-01-06T12:19:22
+================================================================================
+[2024-01-06T12:20:09.674+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.10s           2024-01-06T12:20:09
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T12:19:50
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.71s           2024-01-06T12:19:53
+================================================================================
+[2024-01-06T12:20:40.554+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.10s           2024-01-06T12:20:40
+/opt/airflow/dags/create_database_dag.py                           1           0  0.71s           2024-01-06T12:20:21
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.71s           2024-01-06T12:20:24
+================================================================================
+[2024-01-06T12:21:11.531+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:21:11
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T12:20:52
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.81s           2024-01-06T12:20:55
+================================================================================
+[2024-01-06T12:21:30.908+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:21:30.949+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:28:04.878+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T12:28:04.884+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T12:28:04.976+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T12:28:04.981+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:28:05.983+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:28:09.685+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/ml_model.py                                      0           0  1.59s           2024-01-06T12:28:09
+/opt/airflow/dags/servicenow_dag.py                                0           0
+================================================================================
+[2024-01-06T12:28:41.786+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  1.59s           2024-01-06T12:28:09
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/create_database_dag.py                           1           0  29.39s          2024-01-06T12:28:41
+================================================================================
+[2024-01-06T12:29:18.785+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.37s           2024-01-06T12:28:52
+/opt/airflow/dags/create_database_dag.py                           1           0  5.68s           2024-01-06T12:29:18
+/opt/airflow/dags/servicenow_dag.py                                1           0  6.17s           2024-01-06T12:28:50
+================================================================================
+[2024-01-06T12:29:50.454+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:29:29
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T12:29:50
+/opt/airflow/dags/servicenow_dag.py                                1           0  6.23s           2024-01-06T12:29:27
+================================================================================
+[2024-01-06T12:30:22.488+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:30:00
+/opt/airflow/dags/create_database_dag.py                           1           0  2.01s           2024-01-06T12:30:22
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T12:29:59
+================================================================================
+[2024-01-06T12:30:53.925+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.31s           2024-01-06T12:30:32
+/opt/airflow/dags/create_database_dag.py                           1           0  1.16s           2024-01-06T12:30:53
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.31s           2024-01-06T12:30:31
+================================================================================
+[2024-01-06T12:31:26.326+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.21s           2024-01-06T12:31:04
+/opt/airflow/dags/create_database_dag.py                           1           0  1.95s           2024-01-06T12:31:26
+/opt/airflow/dags/servicenow_dag.py                                1           0  2.43s           2024-01-06T12:31:03
+================================================================================
+[2024-01-06T12:32:00.433+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.21s           2024-01-06T12:31:34
+/opt/airflow/dags/create_database_dag.py                           1           0  3.48s           2024-01-06T12:32:00
+/opt/airflow/dags/servicenow_dag.py                                1           0  2.21s           2024-01-06T12:31:38
+================================================================================
+[2024-01-06T12:32:32.025+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.10s           2024-01-06T12:32:27
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:32:32
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T12:32:09
+================================================================================
+[2024-01-06T12:33:03.399+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:32:58
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:33:03
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T12:32:41
+================================================================================
+[2024-01-06T12:33:05.651+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:33:05.741+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:33:34.863+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           0  0.11s           2024-01-06T12:33:28
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T12:33:34
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T12:33:13
+================================================================================
+[2024-01-06T12:36:43.415+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T12:36:43.425+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T12:36:43.426+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T12:36:43.427+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:36:43.727+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:36:57.231+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/servicenow_dag.py                                0           0
+/opt/airflow/dags/ml_model.py                                      1           0  12.99s          2024-01-06T12:36:57
+================================================================================
+[2024-01-06T12:38:04.147+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  26.98s          2024-01-06T12:37:26
+/opt/airflow/dags/ml_model.py                                      1           0  12.99s          2024-01-06T12:36:57
+/opt/airflow/dags/servicenow_dag.py                                1           0  32.88s          2024-01-06T12:38:04
+================================================================================
+[2024-01-06T12:38:40.240+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           1  33.38s          2024-01-06T12:38:40
+/opt/airflow/dags/create_database_dag.py                           1           0  26.98s          2024-01-06T12:37:26
+/opt/airflow/dags/servicenow_dag.py                                1           0  32.88s          2024-01-06T12:38:04
+================================================================================
+[2024-01-06T12:39:14.550+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  9.02s           2024-01-06T12:38:52
+/opt/airflow/dags/ml_model.py                                      1           0  3.86s           2024-01-06T12:39:14
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.56s           2024-01-06T12:38:55
+================================================================================
+[2024-01-06T12:39:47.459+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.51s           2024-01-06T12:39:24
+/opt/airflow/dags/ml_model.py                                      1           0  2.66s           2024-01-06T12:39:47
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.72s           2024-01-06T12:39:27
+================================================================================
+[2024-01-06T12:40:20.045+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.61s           2024-01-06T12:39:56
+/opt/airflow/dags/ml_model.py                                      1           0  2.30s           2024-01-06T12:40:20
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.31s           2024-01-06T12:40:00
+================================================================================
+[2024-01-06T12:40:52.449+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:40:28
+/opt/airflow/dags/ml_model.py                                      1           0  2.13s           2024-01-06T12:40:52
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:40:31
+================================================================================
+[2024-01-06T12:41:24.943+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:40:59
+/opt/airflow/dags/ml_model.py                                      1           0  2.22s           2024-01-06T12:41:24
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:41:03
+================================================================================
+[2024-01-06T12:41:43.548+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:41:43.653+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:41:57.544+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:41:31
+/opt/airflow/dags/ml_model.py                                      1           0  2.35s           2024-01-06T12:41:57
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T12:41:34
+================================================================================
+[2024-01-06T12:42:29.947+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T12:42:03
+/opt/airflow/dags/ml_model.py                                      1           0  2.09s           2024-01-06T12:42:29
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T12:42:06
+================================================================================
+[2024-01-06T12:43:02.744+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.04s           2024-01-06T12:42:34
+/opt/airflow/dags/ml_model.py                                      1           0  2.51s           2024-01-06T12:43:02
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:42:38
+================================================================================
+[2024-01-06T12:43:35.448+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.22s           2024-01-06T12:43:06
+/opt/airflow/dags/ml_model.py                                      1           0  2.48s           2024-01-06T12:43:35
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.12s           2024-01-06T12:43:10
+================================================================================
+[2024-01-06T12:44:07.843+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T12:43:37
+/opt/airflow/dags/ml_model.py                                      1           0  2.20s           2024-01-06T12:44:07
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.02s           2024-01-06T12:43:41
+================================================================================
+[2024-01-06T12:44:40.343+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.36s           2024-01-06T12:44:10
+/opt/airflow/dags/ml_model.py                                      1           0  2.21s           2024-01-06T12:44:40
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.12s           2024-01-06T12:44:13
+================================================================================
+[2024-01-06T12:45:12.648+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T12:44:42
+/opt/airflow/dags/ml_model.py                                      1           0  2.02s           2024-01-06T12:45:12
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:44:45
+================================================================================
+[2024-01-06T12:45:44.942+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:45:14
+/opt/airflow/dags/ml_model.py                                      1           0  2.00s           2024-01-06T12:45:44
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:45:17
+================================================================================
+[2024-01-06T12:46:17.944+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:45:47
+/opt/airflow/dags/ml_model.py                                      1           0  2.70s           2024-01-06T12:46:17
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T12:45:49
+================================================================================
+[2024-01-06T12:46:43.806+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:46:43.859+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:46:50.648+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T12:46:20
+/opt/airflow/dags/ml_model.py                                      1           0  2.42s           2024-01-06T12:46:50
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.32s           2024-01-06T12:46:22
+================================================================================
+[2024-01-06T12:47:23.345+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:46:52
+/opt/airflow/dags/ml_model.py                                      1           0  2.43s           2024-01-06T12:47:23
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T12:46:54
+================================================================================
+[2024-01-06T12:47:55.945+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.02s           2024-01-06T12:47:25
+/opt/airflow/dags/ml_model.py                                      1           0  2.27s           2024-01-06T12:47:55
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.16s           2024-01-06T12:47:27
+================================================================================
+[2024-01-06T12:48:28.443+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.81s           2024-01-06T12:47:58
+/opt/airflow/dags/ml_model.py                                      1           0  2.20s           2024-01-06T12:48:28
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.31s           2024-01-06T12:48:01
+================================================================================
+[2024-01-06T12:49:00.746+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T12:48:30
+/opt/airflow/dags/ml_model.py                                      1           0  2.04s           2024-01-06T12:49:00
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:48:33
+================================================================================
+[2024-01-06T12:49:33.048+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:49:03
+/opt/airflow/dags/ml_model.py                                      1           0  2.03s           2024-01-06T12:49:33
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:49:05
+================================================================================
+[2024-01-06T12:50:05.549+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:49:35
+/opt/airflow/dags/ml_model.py                                      1           0  2.24s           2024-01-06T12:50:05
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T12:49:37
+================================================================================
+[2024-01-06T12:50:37.843+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T12:50:07
+/opt/airflow/dags/ml_model.py                                      1           0  2.03s           2024-01-06T12:50:37
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T12:50:09
+================================================================================
+[2024-01-06T12:51:10.243+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:50:40
+/opt/airflow/dags/ml_model.py                                      1           0  2.08s           2024-01-06T12:51:10
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.51s           2024-01-06T12:50:42
+================================================================================
+[2024-01-06T12:51:42.647+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:51:12
+/opt/airflow/dags/ml_model.py                                      1           0  2.15s           2024-01-06T12:51:42
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T12:51:14
+================================================================================
+[2024-01-06T12:51:43.853+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:51:43.969+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:52:16.045+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:51:45
+/opt/airflow/dags/ml_model.py                                      1           0  2.95s           2024-01-06T12:52:16
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T12:51:47
+================================================================================
+[2024-01-06T12:52:48.848+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.22s           2024-01-06T12:52:18
+/opt/airflow/dags/ml_model.py                                      1           0  2.53s           2024-01-06T12:52:48
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T12:52:20
+================================================================================
+[2024-01-06T12:53:21.550+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.18s           2024-01-06T12:52:51
+/opt/airflow/dags/ml_model.py                                      1           0  2.41s           2024-01-06T12:53:21
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.31s           2024-01-06T12:52:53
+================================================================================
+[2024-01-06T12:53:54.143+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:53:23
+/opt/airflow/dags/ml_model.py                                      1           0  2.29s           2024-01-06T12:53:54
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T12:53:26
+================================================================================
+[2024-01-06T12:54:26.441+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T12:53:56
+/opt/airflow/dags/ml_model.py                                      1           0  2.04s           2024-01-06T12:54:26
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.32s           2024-01-06T12:53:59
+================================================================================
+[2024-01-06T12:54:58.841+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T12:54:28
+/opt/airflow/dags/ml_model.py                                      1           0  2.06s           2024-01-06T12:54:58
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T12:54:30
+================================================================================
+[2024-01-06T12:55:31.241+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:55:01
+/opt/airflow/dags/ml_model.py                                      1           0  2.18s           2024-01-06T12:55:31
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.32s           2024-01-06T12:55:03
+================================================================================
+[2024-01-06T12:56:04.647+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:55:33
+/opt/airflow/dags/ml_model.py                                      1           0  3.02s           2024-01-06T12:56:04
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T12:55:35
+================================================================================
+[2024-01-06T12:56:37.140+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T12:56:06
+/opt/airflow/dags/ml_model.py                                      1           0  2.20s           2024-01-06T12:56:37
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.25s           2024-01-06T12:56:09
+================================================================================
+[2024-01-06T12:56:44.592+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T12:56:44.647+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T12:57:09.540+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.06s           2024-01-06T12:56:39
+/opt/airflow/dags/ml_model.py                                      1           0  2.28s           2024-01-06T12:57:09
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.13s           2024-01-06T12:56:41
+================================================================================
+[2024-01-06T13:00:38.832+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T13:00:38.833+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T13:00:38.834+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-06T13:00:38.836+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T13:00:39.159+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T13:00:40.135+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           0           0
+/opt/airflow/dags/ml_model.py                                      0           1  0.49s           2024-01-06T13:00:40
+/opt/airflow/dags/servicenow_dag.py                                0           0
+================================================================================
+[2024-01-06T13:01:11.454+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           1  0.81s           2024-01-06T13:01:11
+/opt/airflow/dags/create_database_dag.py                           1           0  4.49s           2024-01-06T13:00:46
+/opt/airflow/dags/servicenow_dag.py                                1           0  4.49s           2024-01-06T13:00:52
+================================================================================
+[2024-01-06T13:01:42.378+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           1  0.21s           2024-01-06T13:01:42
+/opt/airflow/dags/create_database_dag.py                           1           0  3.82s           2024-01-06T13:01:21
+/opt/airflow/dags/servicenow_dag.py                                1           0  3.18s           2024-01-06T13:01:25
+================================================================================
+[2024-01-06T13:02:12.938+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_model.py                                      0           1  0.47s           2024-01-06T13:02:12
+/opt/airflow/dags/create_database_dag.py                           1           0  1.55s           2024-01-06T13:01:52
+/opt/airflow/dags/servicenow_dag.py                                1           0  5.00s           2024-01-06T13:02:07
+================================================================================
+[2024-01-06T13:02:45.541+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  4.12s           2024-01-06T13:02:28
+/opt/airflow/dags/ml_model.py                                      1           0  2.48s           2024-01-06T13:02:45
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.12s           2024-01-06T13:02:39
+================================================================================
+[2024-01-06T13:03:18.644+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.05s           2024-01-06T13:02:59
+/opt/airflow/dags/ml_model.py                                      1           0  2.19s           2024-01-06T13:03:18
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.17s           2024-01-06T13:03:10
+================================================================================
+[2024-01-06T13:03:50.824+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.70s           2024-01-06T13:03:30
+/opt/airflow/dags/ml_model.py                                      1           0  1.93s           2024-01-06T13:03:50
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:03:42
+================================================================================
+[2024-01-06T13:04:23.138+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:04:02
+/opt/airflow/dags/ml_model.py                                      1           0  2.02s           2024-01-06T13:04:23
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T13:04:13
+================================================================================
+[2024-01-06T13:04:55.543+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.02s           2024-01-06T13:04:33
+/opt/airflow/dags/ml_model.py                                      1           0  2.10s           2024-01-06T13:04:55
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:04:45
+================================================================================
+[2024-01-06T13:05:27.842+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:05:05
+/opt/airflow/dags/ml_model.py                                      1           0  2.04s           2024-01-06T13:05:27
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:05:16
+================================================================================
+[2024-01-06T13:05:39.157+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T13:05:39.213+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T13:06:00.340+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T13:05:36
+/opt/airflow/dags/ml_model.py                                      1           0  2.24s           2024-01-06T13:06:00
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T13:05:48
+================================================================================
+[2024-01-06T13:06:32.653+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:06:07
+/opt/airflow/dags/ml_model.py                                      1           0  2.02s           2024-01-06T13:06:32
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T13:06:19
+================================================================================
+[2024-01-06T13:07:05.039+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:06:38
+/opt/airflow/dags/ml_model.py                                      1           0  2.13s           2024-01-06T13:07:05
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:06:51
+================================================================================
+[2024-01-06T13:07:37.239+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.07s           2024-01-06T13:07:10
+/opt/airflow/dags/ml_model.py                                      1           0  1.91s           2024-01-06T13:07:37
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.25s           2024-01-06T13:07:23
+================================================================================
+[2024-01-06T13:08:09.666+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.81s           2024-01-06T13:07:41
+/opt/airflow/dags/ml_model.py                                      1           0  2.11s           2024-01-06T13:08:09
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.04s           2024-01-06T13:07:55
+================================================================================
+[2024-01-06T13:08:41.849+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:08:13
+/opt/airflow/dags/ml_model.py                                      1           0  2.06s           2024-01-06T13:08:41
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:08:26
+================================================================================
+[2024-01-06T13:09:15.042+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:08:44
+/opt/airflow/dags/ml_model.py                                      1           0  2.64s           2024-01-06T13:09:15
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:08:57
+================================================================================
+[2024-01-06T13:09:47.443+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:09:17
+/opt/airflow/dags/ml_model.py                                      1           0  2.15s           2024-01-06T13:09:47
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:09:28
+================================================================================
+[2024-01-06T13:10:19.639+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.41s           2024-01-06T13:09:50
+/opt/airflow/dags/ml_model.py                                      1           0  1.93s           2024-01-06T13:10:19
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.03s           2024-01-06T13:10:00
+================================================================================
+[2024-01-06T13:10:39.356+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T13:10:39.407+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T13:10:52.039+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.03s           2024-01-06T13:10:21
+/opt/airflow/dags/ml_model.py                                      1           0  2.12s           2024-01-06T13:10:52
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.95s           2024-01-06T13:10:32
+================================================================================
+[2024-01-06T13:11:24.342+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T13:10:54
+/opt/airflow/dags/ml_model.py                                      1           0  2.03s           2024-01-06T13:11:24
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:11:03
+================================================================================
+[2024-01-06T13:11:56.584+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:11:26
+/opt/airflow/dags/ml_model.py                                      1           0  2.01s           2024-01-06T13:11:56
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.05s           2024-01-06T13:11:35
+================================================================================
+[2024-01-06T13:12:28.838+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T13:11:59
+/opt/airflow/dags/ml_model.py                                      1           0  1.96s           2024-01-06T13:12:28
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T13:12:06
+================================================================================
+[2024-01-06T13:13:01.038+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T13:12:31
+/opt/airflow/dags/ml_model.py                                      1           0  1.93s           2024-01-06T13:13:01
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:12:37
+================================================================================
+[2024-01-06T13:13:33.539+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T13:13:03
+/opt/airflow/dags/ml_model.py                                      1           0  2.16s           2024-01-06T13:13:33
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:13:08
+================================================================================
+[2024-01-06T13:14:06.007+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T13:13:35
+/opt/airflow/dags/ml_model.py                                      1           0  2.21s           2024-01-06T13:14:06
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.06s           2024-01-06T13:13:39
+================================================================================
+[2024-01-06T13:14:38.037+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T13:14:08
+/opt/airflow/dags/ml_model.py                                      1           0  1.92s           2024-01-06T13:14:38
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.32s           2024-01-06T13:14:11
+================================================================================
+[2024-01-06T13:15:10.404+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:14:40
+/opt/airflow/dags/ml_model.py                                      1           0  2.12s           2024-01-06T13:15:10
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:14:43
+================================================================================
+[2024-01-06T13:15:39.538+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T13:15:39.579+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T13:15:42.841+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T13:15:12
+/opt/airflow/dags/ml_model.py                                      1           0  2.15s           2024-01-06T13:15:42
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.03s           2024-01-06T13:15:15
+================================================================================
+[2024-01-06T13:16:15.127+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:15:44
+/opt/airflow/dags/ml_model.py                                      1           0  2.03s           2024-01-06T13:16:15
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:15:46
+================================================================================
+[2024-01-06T13:16:48.041+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.41s           2024-01-06T13:16:17
+/opt/airflow/dags/ml_model.py                                      1           0  2.61s           2024-01-06T13:16:48
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.41s           2024-01-06T13:16:20
+================================================================================
+[2024-01-06T13:17:20.539+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.27s           2024-01-06T13:16:50
+/opt/airflow/dags/ml_model.py                                      1           0  2.30s           2024-01-06T13:17:20
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:16:52
+================================================================================
+[2024-01-06T13:17:53.240+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.17s           2024-01-06T13:17:22
+/opt/airflow/dags/ml_model.py                                      1           0  2.39s           2024-01-06T13:17:53
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.12s           2024-01-06T13:17:25
+================================================================================
+[2024-01-06T13:18:25.542+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T13:17:55
+/opt/airflow/dags/ml_model.py                                      1           0  2.04s           2024-01-06T13:18:25
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:17:57
+================================================================================
+[2024-01-06T13:18:58.137+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T13:18:28
+/opt/airflow/dags/ml_model.py                                      1           0  2.17s           2024-01-06T13:18:58
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:18:30
+================================================================================
+[2024-01-06T13:19:30.342+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T13:19:00
+/opt/airflow/dags/ml_model.py                                      1           0  1.91s           2024-01-06T13:19:30
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T13:19:02
+================================================================================
+[2024-01-06T13:20:02.643+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:19:32
+/opt/airflow/dags/ml_model.py                                      1           0  2.20s           2024-01-06T13:20:02
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.31s           2024-01-06T13:19:35
+================================================================================
+[2024-01-06T13:20:35.041+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:20:04
+/opt/airflow/dags/ml_model.py                                      1           0  2.08s           2024-01-06T13:20:35
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.04s           2024-01-06T13:20:07
+================================================================================
+[2024-01-06T13:20:39.689+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T13:20:39.741+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T13:21:07.740+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:20:37
+/opt/airflow/dags/ml_model.py                                      1           0  2.43s           2024-01-06T13:21:07
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:20:39
+================================================================================
+[2024-01-06T13:21:40.039+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T13:21:10
+/opt/airflow/dags/ml_model.py                                      1           0  2.16s           2024-01-06T13:21:40
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:21:12
+================================================================================
+[2024-01-06T13:22:12.441+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:21:42
+/opt/airflow/dags/ml_model.py                                      1           0  2.16s           2024-01-06T13:22:12
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.51s           2024-01-06T13:21:44
+================================================================================
+[2024-01-06T13:22:44.731+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:22:14
+/opt/airflow/dags/ml_model.py                                      1           0  2.03s           2024-01-06T13:22:44
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:22:16
+================================================================================
+[2024-01-06T13:23:17.044+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.21s           2024-01-06T13:22:46
+/opt/airflow/dags/ml_model.py                                      1           0  2.07s           2024-01-06T13:23:17
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:22:48
+================================================================================
+[2024-01-06T13:23:49.436+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:23:19
+/opt/airflow/dags/ml_model.py                                      1           0  2.13s           2024-01-06T13:23:49
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:23:21
+================================================================================
+[2024-01-06T13:24:21.741+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:23:51
+/opt/airflow/dags/ml_model.py                                      1           0  2.03s           2024-01-06T13:24:21
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T13:23:54
+================================================================================
+[2024-01-06T13:24:54.031+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:24:24
+/opt/airflow/dags/ml_model.py                                      1           0  2.03s           2024-01-06T13:24:54
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:24:26
+================================================================================
+[2024-01-06T13:25:26.541+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.91s           2024-01-06T13:24:56
+/opt/airflow/dags/ml_model.py                                      1           0  2.24s           2024-01-06T13:25:26
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.06s           2024-01-06T13:24:58
+================================================================================
+[2024-01-06T13:25:39.898+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T13:25:39.942+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T13:25:59.339+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:25:28
+/opt/airflow/dags/ml_model.py                                      1           0  2.51s           2024-01-06T13:25:59
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:25:30
+================================================================================
+[2024-01-06T13:26:31.537+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:26:01
+/opt/airflow/dags/ml_model.py                                      1           0  2.06s           2024-01-06T13:26:31
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.33s           2024-01-06T13:26:04
+================================================================================
+[2024-01-06T13:27:03.940+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:26:33
+/opt/airflow/dags/ml_model.py                                      1           0  2.12s           2024-01-06T13:27:03
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T13:26:35
+================================================================================
+[2024-01-06T13:27:36.448+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:27:06
+/opt/airflow/dags/ml_model.py                                      1           0  2.22s           2024-01-06T13:27:36
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.21s           2024-01-06T13:27:08
+================================================================================
+[2024-01-06T13:28:08.735+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.31s           2024-01-06T13:27:38
+/opt/airflow/dags/ml_model.py                                      1           0  1.99s           2024-01-06T13:28:08
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:27:41
+================================================================================
+[2024-01-06T13:28:41.038+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:28:10
+/opt/airflow/dags/ml_model.py                                      1           0  2.05s           2024-01-06T13:28:41
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T13:28:12
+================================================================================
+[2024-01-06T13:29:13.239+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:28:43
+/opt/airflow/dags/ml_model.py                                      1           0  1.87s           2024-01-06T13:29:13
+/opt/airflow/dags/servicenow_dag.py                                1           0  0.91s           2024-01-06T13:28:45
+================================================================================
+[2024-01-06T13:29:45.537+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.11s           2024-01-06T13:29:15
+/opt/airflow/dags/ml_model.py                                      1           0  1.96s           2024-01-06T13:29:45
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:29:17
+================================================================================
+[2024-01-06T13:30:17.935+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  0.92s           2024-01-06T13:29:47
+/opt/airflow/dags/ml_model.py                                      1           0  2.06s           2024-01-06T13:30:17
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.01s           2024-01-06T13:29:49
+================================================================================
+[2024-01-06T13:30:40.076+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T13:30:40.120+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T13:30:50.239+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.01s           2024-01-06T13:30:20
+/opt/airflow/dags/ml_model.py                                      1           0  2.03s           2024-01-06T13:30:50
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.11s           2024-01-06T13:30:22
+================================================================================
+[2024-01-06T13:31:22.639+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_database_dag.py                           1           0  1.41s           2024-01-06T13:30:52
+/opt/airflow/dags/ml_model.py                                      1           0  2.21s           2024-01-06T13:31:22
+/opt/airflow/dags/servicenow_dag.py                                1           0  1.31s           2024-01-06T13:30:55
+================================================================================
