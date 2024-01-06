@@ -41,8 +41,6 @@ def create_DB(task_instance):
     task_instance.xcom_push(key='table_ob')
     os.environ['TABLE_NAME'] = incident_db
 
-
-
 def insert_data_postg(task_instance):
     pg_hook = PostgresHook.get_hook('postgres_connect')
     #pg_hook.insert_rows()
@@ -72,7 +70,7 @@ with DAG(
         task_id = 'create_post_DB',
         postgres_conn_id='postgres_connect',
         sql="""
-create table if not exists incident_new(
+    create table if not exists incident_new(
     id serial ,
     impact integer,
     number varchar(50),

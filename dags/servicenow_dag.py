@@ -5,14 +5,11 @@ from airflow.providers.http.operators.http import SimpleHttpOperator
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
+import os
 import json
 import pandas as pd
 
 from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData
-
-
-# import json
-# import pandas as pd
 
 
 def transform_data(task_instance):
@@ -21,10 +18,13 @@ def transform_data(task_instance):
     dataFrame = pd.json_normalize(data['result'])
     dataFrame = dataFrame[['number','impact','severity','priority','category','calendar_stc','assignment_group.value']]
     dataFrame = dataFrame.rename(columns={'calendar_stc':'resolve_time','assignment_group.value':'assignment_group'})
-    dataFrame.to_csv('./data/incidents.csv', index=False)
-
-
-
+    if os.path.exists('./data/incidents.csv'):
+        os.remove('./data/incidents.csv')
+        dataFrame.to_csv('./data/incidents.csv', index=False)
+    else:
+        dataFrame.to_csv('./data/incidents.csv', index=False)
+    
+    
 
 
 default_args = {
@@ -54,7 +54,7 @@ with DAG(
     extract_incident_data = SimpleHttpOperator(
         task_id='extract_incident_data',
         http_conn_id='snow_api_id',
-        endpoint='api/now/table/incident?sysparm_limit=1000',
+        endpoint='api/now/table/incident??sysparm_query=state=6^ORstate=7&sysparm_limit=1000',
         method='GET',
         log_response = True,
         response_filter = lambda r: json.loads(r.text)
@@ -65,6 +65,5 @@ with DAG(
         python_callable=transform_data
     )
 
-    
 
     is_snow_api_ready >> extract_incident_data >> transform_inc_data
