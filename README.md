@@ -1,6 +1,6 @@
 # ML-Pipeline using ServiceNow and Apache Airflow
 
-The pipeline includes extracting data from the data source, transforming the data, storing it into a database, and building an ML model from the data. The following technologies were used in this project: Docker, Apache Airflow, Scikit-learn, Pandas, and ServiceNow.
+The pipeline includes extracting data from the data source, transforming the data, storing it into a database, and building an ML model from the data. The following technologies were used in this project: Docker, Apache Airflow, Postgres, and ServiceNow.
 
 ## Problem Statement
 
@@ -32,7 +32,7 @@ Use Spark Jobs to perform ML-modeling and preprocessing.
 
 
 ### Technologies Used
-![Python,Docker,SKlearn](https://skillicons.dev/icons?i=python,docker)
+![Python,Docker,SKlearn](https://skillicons.dev/icons?i=python,docker,postgres)
 
 ### Tools Used
 
