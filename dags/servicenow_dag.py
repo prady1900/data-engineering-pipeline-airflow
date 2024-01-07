@@ -1,10 +1,12 @@
 from airflow import DAG
 from datetime import datetime, timedelta
+from airflow.decorators import task
 from airflow.providers.http.sensors.http import HttpSensor
 from airflow.providers.http.operators.http import SimpleHttpOperator
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 import os
 import json
 import pandas as pd
@@ -65,5 +67,11 @@ with DAG(
         python_callable=transform_data
     )
 
+    triggerDbDag = TriggerDagRunOperator(
+        task_id='triggerDbDag',
+        trigger_dag_id='target',
+        wait_for_completion=False
+    )
+    
 
-    is_snow_api_ready >> extract_incident_data >> transform_inc_data
+    is_snow_api_ready >> extract_incident_data >> transform_inc_data >>triggerDbDag

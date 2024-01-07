@@ -4,6 +4,7 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python import PythonOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 import json
 import pandas as pd
 import os
@@ -43,25 +44,16 @@ def create_DB(task_instance):
 
 def insert_data_postg(task_instance):
     pg_hook = PostgresHook.get_hook('postgres_connect')
-    #pg_hook.insert_rows()
-    #conn = pg_hook.get_conn()
-    #cursor = conn.cursor()
     df_inc = pd.read_csv('./data/incidents.csv')
     df_inc.to_sql('incident_new',pg_hook.get_sqlalchemy_engine(),if_exists='append', chunksize=500, index=False)
 
-    # for index,row in df_inc.iterrows():
-    #     imp,number,sev,prio,av,res,cat = row['impact'],row['number'],row['severity'],row['priority'],'x'+str(row['assignment_group.value']),row['calendar_stc'],row['category']
-    #     sql_stmt = str("""insert into incident_new (impact,number,severity,priority,assignment_group,resolve_time,category) VALUES ({0},{1},{2},{3},{4},{5},{6});""").format(2,"INC20004",3,1,"x287ebd7da9fe198100f92cc8d1d2154e",2234,"database")
-    #     cursor.execute(sql_stmt)
-    #     if index ==3:
-    #         break
     
 
 
 with DAG(
     'db_dg',
     default_args= default_args,
-    schedule_interval='@daily',
+    schedule_interval=None,
     catchup=False
 
 ) as dag:
@@ -83,15 +75,6 @@ with DAG(
 )
 """
     )
-    
-#     insert_data_in_db = PostgresOperator(
-#          task_id = 'insert_data_in_db',
-#          postgres_conn_id='postgres_connect',
-#          sql="""
-#     insert into incident_new (impact,number,severity,priority,assignment_group,resolve_time,category) VALUES 
-#     (1,'INC00001',3,2,'database',4332,'rdbms');
-# """
-#     )
 
     # insert data using hooks
     insert_using_python_data = PythonOperator(
@@ -99,16 +82,13 @@ with DAG(
         python_callable=insert_data_postg
     )
 
+    #trigger ML Model Creation
+    triggerMlModel = TriggerDagRunOperator(
+        task_id='triggerMlModel',
+        trigger_dag_id='target',
+        wait_for_completion=False
+    )
 
 
-    # insert_data_in_db = PythonOperator(
-    #     task_id = 'insert_data_in_db',
-    #     python_callable=insert_data_postg
-    # )
     
-
-    # insert_data_in_db = PythonOperator(
-    #     task_id='insert_data_in_db',
-    #     python_callable=create_DB
-    # )
-    create_post_DB>>insert_using_python_data
+    create_post_DB>>insert_using_python_data >> triggerMlModel

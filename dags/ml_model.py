@@ -34,10 +34,6 @@ def load_data():
         joblib.dump(model_svr, './ml_model_file/res_time_predictor.pkl')
     else:
         joblib.dump(model_svr, './ml_model_file/res_time_predictor.pkl')
-    
-
-    
-
 
 
 default_args = {
@@ -53,13 +49,13 @@ default_args = {
 with DAG (
     'ml_dag',
     default_args=default_args,
-    schedule_interval='@daily',
+    schedule_interval=None,
     catchup=False
 )as ml_dag:
     start_task = EmptyOperator(
         task_id='start_task',
-
     )
+
     load_data_from_idea = PythonOperator(
         task_id = 'load_data_from_idea',
         python_callable=load_data
