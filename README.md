@@ -35,7 +35,7 @@ Use Spark Jobs to perform ML-modeling and preprocessing.
 ![Python,Docker,SKlearn](https://skillicons.dev/icons?i=python,docker,sklearn)
 
 ### Tools Used
-![Airflow]([https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png](https://dash.elest.io/templatesIcones/Airflow.png))
+![Airflow]([Airflow.png])
 
-![ServiceNow]([https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/ServiceNow_logo.svg/2560px-ServiceNow_logo.svg.png](https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b3/0e/18/b30e187a-48f1-f3cf-2a2d-6c69fe1b27e3/SNAppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/256x256bb.jpg)https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b3/0e/18/b30e187a-48f1-f3cf-2a2d-6c69fe1b27e3/SNAppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/256x256bb.jpg)
+![ServiceNow]([SERVICENOW.jpg)
 
