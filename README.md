@@ -29,6 +29,7 @@ This stage creates our actual ML model for use. Here we utilize the Scikit-learn
 ## Way Forward
 
 Use Spark Jobs to perform ML-modeling and preprocessing.
+Maintaining the Accuracy of the Model
 
 
 ### Technologies Used
