@@ -32,7 +32,7 @@ Use Spark Jobs to perform ML-modeling and preprocessing.
 
 
 ### Technologies Used
-![Python,Docker,SKlearn](https://skillicons.dev/icons?i=python,docker,sklearn)
+![Python,Docker,SKlearn](https://skillicons.dev/icons?i=python,docker)
 
 ### Tools Used
 
