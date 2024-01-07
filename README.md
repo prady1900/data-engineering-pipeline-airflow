@@ -6,6 +6,10 @@ The pipeline includes extracting data from the data source, transforming the dat
 
 The goal of this project is to build an end-to-end data pipeline to train a machine learning model to predict the resolution time of an incident.
 
+## Pre-requisites
+
+Build the docker file for creating your custom airflow image with sk-learn
+
 ## Pipeline Stages
 
 The pipeline is represented as a Directed Acyclic Graph (DAG) with three stages:
@@ -25,3 +29,13 @@ This stage creates our actual ML model for use. Here we utilize the Scikit-learn
 ## Way Forward
 
 Use Spark Jobs to perform ML-modeling and preprocessing.
+
+
+### Technologies Used
+![Python,Docker,SKlearn](https://skillicons.dev/icons?i=python,docker,sklearn)
+
+### Tools Used
+![Airflow](https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png)
+
+![ServiceNow](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/ServiceNow_logo.svg/2560px-ServiceNow_logo.svg.png)
+
