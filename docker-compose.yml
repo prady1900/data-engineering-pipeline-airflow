@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: postgres_container
+    hostname: postgres_host
+    image: postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_DB: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    
+  adminer:
+    container_name: adminer
+    hostname: adminer
+    image: adminer
+    restart: always
+    ports:
+      - "8000:8080"
+
+  prady1900-airflow:
+    build: 
+      context: "."
+    deploy:
+      resources:
+        limits:
+          cpus: '0.7'
+    
+    volumes:
+      - ./airflow:/opt/airflow
+    ports:
+      - "8080:8080"
+
+    command: airflow standalone
+volumes:
+  pgdata:
+
